@@ -1,8 +1,8 @@
-package com.example.ideaplugindemo.window;
+package com.example.zhFish.window;
 
-import com.example.ideaplugindemo.config.AppSettingsState;
-import com.example.ideaplugindemo.entity.Content;
-import com.example.ideaplugindemo.service.MessageService;
+import com.example.zhFish.config.AppSettingsState;
+import com.example.zhFish.entity.Content;
+import com.example.zhFish.service.MessageService;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 

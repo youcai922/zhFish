@@ -1,4 +1,4 @@
-package com.example.ideaplugindemo.entity;
+package com.example.zhFish.entity;
 
 /**
  * @author yucan

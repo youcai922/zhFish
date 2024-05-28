@@ -1,1 +1,1 @@
-rootProject.name = "ideaPluginDemo"
+rootProject.name = "zhFish"

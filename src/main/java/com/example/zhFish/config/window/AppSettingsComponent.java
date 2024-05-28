@@ -1,11 +1,6 @@
-package com.example.ideaplugindemo.config.window;
+package com.example.zhFish.config.window;
 
-import com.example.ideaplugindemo.config.AppSettingsState;
-import com.intellij.ui.components.JBCheckBox;
-import com.intellij.ui.components.JBLabel;
-import com.intellij.ui.components.JBTextField;
-import com.intellij.util.ui.FormBuilder;
-import org.jetbrains.annotations.NotNull;
+import com.example.zhFish.config.AppSettingsState;
 
 import javax.swing.*;
 import java.util.Objects;
