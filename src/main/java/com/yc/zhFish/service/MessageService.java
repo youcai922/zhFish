@@ -1,10 +1,10 @@
-package com.example.zhFish.service;
+package com.yc.zhFish.service;
 
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
-import com.example.zhFish.entity.Content;
+import com.yc.zhFish.entity.Content;
 
 import java.util.ArrayList;
 import java.util.HashMap;

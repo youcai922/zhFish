@@ -1,6 +1,6 @@
-package com.example.zhFish.config.window;
+package com.yc.zhFish.config.window;
 
-import com.example.zhFish.config.AppSettingsState;
+import com.yc.zhFish.config.AppSettingsState;
 
 import javax.swing.*;
 import java.util.Objects;

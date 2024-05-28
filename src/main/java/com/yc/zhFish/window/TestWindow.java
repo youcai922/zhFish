@@ -1,8 +1,8 @@
-package com.example.zhFish.window;
+package com.yc.zhFish.window;
 
-import com.example.zhFish.config.AppSettingsState;
-import com.example.zhFish.entity.Content;
-import com.example.zhFish.service.MessageService;
+import com.yc.zhFish.config.AppSettingsState;
+import com.yc.zhFish.entity.Content;
+import com.yc.zhFish.service.MessageService;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 

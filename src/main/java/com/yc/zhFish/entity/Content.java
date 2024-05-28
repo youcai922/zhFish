@@ -1,4 +1,4 @@
-package com.example.zhFish.entity;
+package com.yc.zhFish.entity;
 
 /**
  * @author yucan

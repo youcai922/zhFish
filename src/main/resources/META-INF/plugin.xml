@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>com.example.zhFish</id>
+    <id>com.yc.zhFish</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -13,7 +13,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>知乎摸鱼插件：settings中可以设置内容字体大小，方向↓键可以切换下一个内容</description>
+    <description>知乎摸鱼插件：一个可以提供在idea中浏览知乎相关内容的小插件，使用者可以在settings中可以设置内容字体大小，方向↓键可以切换下一个内容</description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -22,12 +22,12 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="zhFish" factoryClass="com.example.zhFish.window.TestWindowFactory"
+        <toolWindow id="zhFish" factoryClass="com.yc.zhFish.window.TestWindowFactory"
                     anchor="right"></toolWindow>
-        <applicationConfigurable parentId="tools" instance="com.example.zhFish.config.AppSettingsConfigurable"
+        <applicationConfigurable parentId="tools" instance="com.yc.zhFish.config.AppSettingsConfigurable"
                                  id="org.intellij.sdk.settings.AppSettingsConfigurable"
                                  displayName="zhFish"/>
-        <applicationService serviceImplementation="com.example.zhFish.config.AppSettingsState"/>
+        <applicationService serviceImplementation="com.yc.zhFish.config.AppSettingsState"/>
     </extensions>
     <actions>
     </actions>

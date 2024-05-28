@@ -1,4 +1,4 @@
-package com.example.zhFish.config;
+package com.yc.zhFish.config;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.components.PersistentStateComponent;
@@ -13,7 +13,7 @@ import groovyjarjarantlr4.v4.runtime.misc.Nullable;
  * @date 2024/5/27 14:20
  */
 @State(
-        name = "com.example.zhFish.config.AppSettingsState",
+        name = "com.yc.zhFish.config.AppSettingsState",
         storages = @Storage("plugin.xml")
 )
 public class AppSettingsState implements PersistentStateComponent<AppSettingsState> {

@@ -1,6 +1,6 @@
-package com.example.zhFish.config;
+package com.yc.zhFish.config;
 
-import com.example.zhFish.config.window.AppSettingsComponent;
+import com.yc.zhFish.config.window.AppSettingsComponent;
 import com.intellij.openapi.options.Configurable;
 import groovyjarjarantlr4.v4.runtime.misc.Nullable;
 import org.jetbrains.annotations.Nls;
