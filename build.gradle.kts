@@ -22,6 +22,8 @@ intellij {
 tasks {
   // Set the JVM compatibility versions
   withType<JavaCompile> {
+    //输出字符集(解决字符乱码问题)
+    options.encoding = "UTF-8"
     sourceCompatibility = "11"
     targetCompatibility = "11"
   }
@@ -40,4 +42,8 @@ tasks {
   publishPlugin {
     token.set(System.getenv("PUBLISH_TOKEN"))
   }
+}
+
+dependencies {
+    implementation ("cn.hutool:hutool-all:5.8.26")
 }
