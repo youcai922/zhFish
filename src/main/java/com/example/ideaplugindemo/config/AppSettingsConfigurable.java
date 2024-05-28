@@ -1,12 +1,12 @@
 package com.example.ideaplugindemo.config;
 
 import com.example.ideaplugindemo.config.window.AppSettingsComponent;
-import com.example.ideaplugindemo.window.TestWindow;
 import com.intellij.openapi.options.Configurable;
 import groovyjarjarantlr4.v4.runtime.misc.Nullable;
 import org.jetbrains.annotations.Nls;
 
 import javax.swing.*;
+
 
 /**
  * @author yucan
