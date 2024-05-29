@@ -29,7 +29,9 @@ public class MessageService {
             //当前问题对象
             JSONObject questionObject = (JSONObject) targetObject.get("question");
             String title = (String) questionObject.get("title");
-            String url = (String) targetObject.get("url");
+            String questionId = questionObject.get("id").toString();
+            String answerId = targetObject.get("id").toString();
+            String url = "https://www.zhihu.com/question/" + questionId + "/answer/" + answerId;
             //当前回答内容
             StringBuilder contentString = new StringBuilder("\n");
             JSONObject json = JSONUtil.parseFromXml((String) targetObject.get("content"));

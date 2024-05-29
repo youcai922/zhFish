@@ -13,7 +13,16 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>知乎摸鱼插件：一个可以提供在idea中浏览知乎相关内容的小插件，使用者可以在settings中可以设置内容字体大小，方向↓键可以切换下一个内容</description>
+    <description> <![CDATA[
+    <p>如果你无事可作,为何不试试用此插件逛逛知乎呢?</p>
+    <ol>
+        <li>在ide设置下找到“zhFish”设置界面。</li>
+        <li>设置你想要的字体大小</li>
+        <li>进入右侧zhFish插件后，按↓键能够切换下一个知乎内容</li>
+    </ol>
+    <p>项目地址:<a href="https://github.com/youcai922/zhFish/tree/main">https://github.com/youcai922/zhFish/tree/main</p>
+    <p>如果有bug，请在help - Show Log in Explorer里查找idea.log相关报错信息，与我联系</p>
+      ]]></description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
