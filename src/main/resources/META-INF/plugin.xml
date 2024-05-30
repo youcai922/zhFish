@@ -14,10 +14,16 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description> <![CDATA[
+    <p>If you don't have anything else to do, why not try this plugin?</p>
+    <ol>
+        <li>Under idea Settings, find the "zhFish" Settings screen. Set the font size you want</li>
+        <li>After entering the zhFish plug-in on the right, press the ↓ key to switch to the next Zhihu content</li>
+    </ol>
+    <p>Project address:<a href="https://github.com/youcai922/zhFish/tree/main">https://github.com/youcai922/zhFish/tree/main</p>
+    <p>If there are any bugs, please find idea. Log related error information in help-Show Log in Explorer and contact me</p>
     <p>如果你无事可作,为何不试试用此插件逛逛知乎呢?</p>
     <ol>
-        <li>在ide设置下找到“zhFish”设置界面。</li>
-        <li>设置你想要的字体大小</li>
+        <li>在idea设置下找到“zhFish”设置界面。设置你想要的字体大小</li>
         <li>进入右侧zhFish插件后，按↓键能够切换下一个知乎内容</li>
     </ol>
     <p>项目地址:<a href="https://github.com/youcai922/zhFish/tree/main">https://github.com/youcai922/zhFish/tree/main</p>
