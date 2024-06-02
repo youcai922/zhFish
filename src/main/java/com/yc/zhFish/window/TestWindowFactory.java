@@ -1,5 +1,6 @@
 package com.yc.zhFish.window;
 
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
@@ -17,8 +18,8 @@ public class TestWindowFactory implements ToolWindowFactory {
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
         //创建出windows对象
         TestWindow testWindow = new TestWindow(project, toolWindow);
-        //获取内容工厂实例
-        ContentFactory contentFactory = ContentFactory.SERVICE.getInstance();
+        //获取内容工厂实例( ContentFactory.SERVICE.getInstance();过时了)
+        ContentFactory contentFactory = ApplicationManager.getApplication().getService(ContentFactory.class);
         //获取用于toolwindow显示的内容
         Content content = contentFactory.createContent(testWindow.getContentPanel(), "", false);
         //给toolwindow设置内容
